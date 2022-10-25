@@ -1,54 +1,39 @@
-.header {
-  width: 100%;
-  background-color: black;
-  color: white;
-  padding: 30px;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.list-container{
+  display: flex;
+  flex-direction: column;
+  padding: 20rem, 50rem, 20rem, 50rem;
+  align-items: center;
 }
 
-.header ul {
+.list-textbox{
   display: inline-block;
-  list-style: none;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.header ul li {
-  display: inline-block;
-  margin-right: 5px;
+.change-region, .change-region{
+  display:flex;
+  flex-direction: column;
+  padding:5px;
+  gap:10px;
 }
 
-.footer {
-  width: 100%;
-  background-color: black;
-  color: white;
-  padding: 30px;
+.item-list{
+  display: flex;
+  justify-content: space-between;
+  gap:10rem;
 }
 
-.footer .section {
-  display: inline-block;
-  width: 33%;
+.change-region-textbox, .change-region-textbox{
+  padding:10px;
+  font-size:15px;
 }
 
-.contact-page {
-  width: 100%;
-  display: block;
-  text-align: center;
-  margin: auto;
-  padding: 30px 0;
-}
-
-.contact-page form {
-  width: 100%;
-  max-width: 500px;
-  text-align: center;
-  margin: 30px auto;
-}
-
-.contact-page input,
-.contact-page button {
-  display: block;
-  font-size: 14px;
-  padding: 5px 10px;
-  border: 1px solid #cec9c9;
-  margin: 10px auto;
-  width: 100%;
-  max-width: 300px;
+.button-collection{
+  display:flex;
+  flex-direction: row;
+  width: 20rem;
 }
